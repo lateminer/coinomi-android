@@ -172,7 +172,7 @@ public class Constants {
             new CoinAddress(DogecoindarkMain.get(), new ServerAddress("doged-cce-1.coinomi.net", 5036),
                                                     new ServerAddress("doged-cce-2.coinomi.net", 5036)),
             new CoinAddress(GcrMain.get(),          new ServerAddress("gcr-cce-1.coinomi.net", 5038),
-                                                    new ServerAddress("gcr-cce-2.coinomi.net", 5038))
+                                                    new ServerAddress("gcr-cce-2.coinomi.net", 5038)),
             new CoinAddress(GraniteMain.get(),      new ServerAddress("grn-cce-1.coinomi.net", 5040),
                                                     new ServerAddress("grn-cce-2.coinomi.net", 5040))
     );
@@ -212,7 +212,7 @@ public class Constants {
         COINS_ICONS.put(CoinID.DOGECOINDARK_MAIN.getCoinType(), R.drawable.dogecoindark);
         COINS_ICONS.put(CoinID.CLAMS_MAIN.getCoinType(), R.drawable.clams);
         COINS_ICONS.put(CoinID.GCR_MAIN.getCoinType(), R.drawable.gcr);
-        COINS_ICONS.put(CoinID.GRN_MAIN.getCoinType(), R.drawable.gcr);
+        COINS_ICONS.put(CoinID.GRANITE_MAIN.getCoinType(), R.drawable.granite);
 
         COINS_BLOCK_EXPLORERS = new HashMap<CoinType, String>();
         COINS_BLOCK_EXPLORERS.put(CoinID.BITCOIN_MAIN.getCoinType(), "https://blockchain.info/tx/%s");
@@ -247,7 +247,7 @@ public class Constants {
         COINS_BLOCK_EXPLORERS.put(CoinID.DOGECOINDARK_MAIN.getCoinType(), "http://darkchain.link/tx/%s");
         COINS_BLOCK_EXPLORERS.put(CoinID.CLAMS_MAIN.getCoinType(), "http://khashier.com/tx/%s");
         COINS_BLOCK_EXPLORERS.put(CoinID.GCR_MAIN.getCoinType(), "https://chainz.cryptoid.info/gcr/tx.dws?%s");
-        COINS_BLOCK_EXPLORERS.put(CoinID.GRN_MAIN.getCoinType(), "https://chainz.cryptoid.info/grn/tx.dws?%s");
+        COINS_BLOCK_EXPLORERS.put(CoinID.GRANITE_MAIN.getCoinType(), "https://chainz.cryptoid.info/grn/tx.dws?%s");
     }
 
     public static final CoinType DEFAULT_COIN = BitcoinMain.get();
