@@ -18,7 +18,7 @@ public class BitSendMain extends CoinType {
         name = "BitSend";
         symbol = "BITSEND";
         uriScheme = "bitsend";
-        bip44Index = 101;
+        bip44Index = 91;
         unitExponent = 8;
         feeValue = value(1000000); // DEFAULT_TRANSACTION_FEE
         minNonDust = value(1000);
