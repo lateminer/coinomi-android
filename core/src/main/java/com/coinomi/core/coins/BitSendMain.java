@@ -5,7 +5,7 @@ import com.coinomi.core.coins.families.BitFamily;
 /**
  * @author John L. Jegutanis
  */
-public class BitSendMain extends CoinType {
+public class BitSendMain extends BitFamily {
     private BitSendMain() {
         id = "bitsend.main";
 
