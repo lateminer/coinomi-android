@@ -35,6 +35,7 @@ public enum CoinID {
     NUSHARES_MAIN(NuSharesMain.get()),
     NAMECOIN_MAIN(NamecoinMain.get()),
     BLACKCOIN_MAIN(BlackcoinMain.get()),
+    DOPECOIN_MAIN(DopecoinMain.get()),
     MONACOIN_MAIN(MonacoinMain.get()),
     FEATHERCOIN_MAIN(FeathercoinMain.get()),
     RUBYCOIN_MAIN(RubycoinMain.get()),

@@ -8,6 +8,7 @@ import com.coinomi.core.coins.BatacoinMain;
 import com.coinomi.core.coins.BitcoinMain;
 import com.coinomi.core.coins.BitcoinTest;
 import com.coinomi.core.coins.BlackcoinMain;
+import com.coinomi.core.coins.DopecoinMain;
 import com.coinomi.core.coins.BurstMain;
 import com.coinomi.core.coins.CanadaeCoinMain;
 import com.coinomi.core.coins.CannacoinMain;
@@ -152,6 +153,8 @@ public class Constants {
                                                     new ServerAddress("rdd-cce-2.coinomi.net", 5014)),
             new CoinAddress(BlackcoinMain.get(),    new ServerAddress("blk-cce-1.coinomi.net", 5015),
                                                     new ServerAddress("blk-cce-2.coinomi.net", 5015)),
+            new CoinAddress(DopecoinMain.get(),     new ServerAddress("146.148.59.98", 50001),
+                                                    new ServerAddress("146.148.59.98", 50001)),
             new CoinAddress(NamecoinMain.get(),     new ServerAddress("nmc-cce-1.coinomi.net", 5016),
                                                     new ServerAddress("nmc-cce-2.coinomi.net", 5016)),
             new CoinAddress(FeathercoinMain.get(),  new ServerAddress("ftc-cce-1.coinomi.net", 5017),
@@ -233,6 +236,7 @@ public class Constants {
         COINS_ICONS.put(CoinID.NUSHARES_MAIN.getCoinType(), R.drawable.nushares);
         COINS_ICONS.put(CoinID.NUBITS_MAIN.getCoinType(), R.drawable.nubits);
         COINS_ICONS.put(CoinID.BLACKCOIN_MAIN.getCoinType(), R.drawable.blackcoin);
+        COINS_ICONS.put(CoinID.DOPECOIN_MAIN.getCoinType(), R.drawable.dopecoin);
         COINS_ICONS.put(CoinID.MONACOIN_MAIN.getCoinType(), R.drawable.monacoin);
         COINS_ICONS.put(CoinID.RUBYCOIN_MAIN.getCoinType(), R.drawable.rubycoin);
         COINS_ICONS.put(CoinID.NAMECOIN_MAIN.getCoinType(), R.drawable.namecoin);
@@ -278,6 +282,7 @@ public class Constants {
         COINS_BLOCK_EXPLORERS.put(CoinID.NUBITS_MAIN.getCoinType(), "http://blockexplorer.nu/transactions/%s");
         COINS_BLOCK_EXPLORERS.put(CoinID.REDDCOIN_MAIN.getCoinType(), "http://live.reddcoin.com/tx/%s");
         COINS_BLOCK_EXPLORERS.put(CoinID.BLACKCOIN_MAIN.getCoinType(), "https://chainz.cryptoid.info/blk/tx.dws?%s.htm");
+        COINS_BLOCK_EXPLORERS.put(CoinID.DOPECOIN_MAIN.getCoinType(), "http://blockexperts.com/dope/tx/%s");
         COINS_BLOCK_EXPLORERS.put(CoinID.MONACOIN_MAIN.getCoinType(), "https://bchain.info/MONA/tx/%s");
         COINS_BLOCK_EXPLORERS.put(CoinID.RUBYCOIN_MAIN.getCoinType(), "https://chainz.cryptoid.info/rby/tx.dws?%s");
         COINS_BLOCK_EXPLORERS.put(CoinID.NAMECOIN_MAIN.getCoinType(), "https://explorer.namecoin.info/tx/%s");
@@ -322,6 +327,7 @@ public class Constants {
             AuroracoinMain.get(),
             BatacoinMain.get(),
             BlackcoinMain.get(),
+            DopecoinMain.get(),
 //            BurstMain.get(),
             CanadaeCoinMain.get(),
             CannacoinMain.get(),
